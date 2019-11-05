@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_menu_events"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_bookmark"
+            android:icon="@drawable/ic_bookmark"
+            android:title="Saved Posts" />
+        <item
+            android:id="@+id/nav_privacy"
+            android:icon="@drawable/ic_menu_secure"
+            android:title="Privacy Policy" />
+        <!--<item
+            android:id="@+id/nav_credits"
+            android:icon="@drawable/ic_menu_credits"
+            android:title="Credits" />-->
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:checkable="false"
+            android:title="Share" />
+
+    </group>
+
+</menu>
